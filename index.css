@@ -27,15 +27,17 @@ body {
 }
 
 #welcome-section {
-    display: flex;
     align-items: center;
     width: 100%;
     height: 100vh;
     background-color: darkred;
     color: black;
-    background-image: -webkit-linear-gradient(gray, purple, red);
+    background-image: -webkit-linear-gradient(rgb(43, 41, 41), pink, darkred);
     padding: 16px;
-    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 #welcome-section h1 {
@@ -45,10 +47,22 @@ body {
     text-align: center;
 }
 
-#welcome-section p {
+#welcome-section h2 {
     font-size: 3rem;
     font-family: serif;
     font-weight: 200;
     font-style: italic;
     text-align: center;
+}
+
+#projects {
+    background-color: brown;
+    align-items: center;
+}
+
+.project-tile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
