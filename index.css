@@ -1,0 +1,15 @@
+#navbar {
+    background:#000;
+    color:#0ff;
+    text-align:center;
+    width:100%;
+    position:fixed;
+    top:0; /* Keep at the very top of the viewport */
+
+  }
+
+#navbarlinks a: hover {
+    color: red;
+}
+
+  
