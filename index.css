@@ -1,17 +1,9 @@
-#navbar {
-  background: #000;
-  color: #0ff;
-  text-align: center;
-  width: 100%;
-  position: fixed;
-  top: 0; /* Keep at the very top of the viewport */
+body {
+  margin: 0;
 }
 
-#navbar ul {
-  float: right;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.navbar {
+  display: flex;
   overflow: hidden;
   background-color: #333;
   position: fixed;
@@ -19,10 +11,22 @@
   width: 100%;
 }
 
-#navbar li a {
+.navbar a {
+  float: left;
   display: block;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 11px 11px;
   text-decoration: none;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#welcome-section {
+  padding: 16px;
+  margin-top: 30px;
 }
