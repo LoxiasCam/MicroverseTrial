@@ -1,15 +1,28 @@
 #navbar {
-    background:#000;
-    color:#0ff;
-    text-align:center;
-    width:100%;
-    position:fixed;
-    top:0; /* Keep at the very top of the viewport */
-
-  }
-
-#navbarlinks a: hover {
-    color: red;
+  background: #000;
+  color: #0ff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0; /* Keep at the very top of the viewport */
 }
 
-  
+#navbar ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
